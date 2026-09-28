@@ -5,3 +5,18 @@
 	box-sizing: border-box;
 	font-family: Lobster Two, sans-serif; 
 }
+
+body{
+	display: grid;
+	grid-template-rows: auto 1fr auto ;
+	min-height: 100vh;
+	min-height: 100dvh;	
+}
+
+.header{
+	background- color: rgba(237, 199, 207, 1);
+	display: flex;
+	align-items: center; 
+	justify-content: space-between ;
+	padding: 1rem 2rem;
+}
